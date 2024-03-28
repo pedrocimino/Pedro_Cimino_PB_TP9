@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "pedro_cimino_pb_tp9",
+    "slug": "snack-d534f5e3-920b-4e07-8753-ea000f897c2a",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera", 
+        {"cameraPermission" : "Permitir o uso da câmera pelo $(PRODUCT_NAME)"}
+      ]
+    ]
+  }
+}
